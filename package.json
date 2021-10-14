@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
-    "start:run": "nodemon build/server.js",
+    "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:* -raw"
   },
   "repository": {
@@ -24,7 +24,8 @@
     "axios": "^0.22.0",
     "dotenv": "^10.0.0",
     "https-proxy-agent": "^5.0.0",
-    "telegraf": "^4.4.2"
+    "telegraf": "^4.4.2",
+    "telegraf-inline-menu": "^4.0.0"
   },
   "devDependencies": {
     "@fullstacksjs/eslint-config": "^6.7.2",
